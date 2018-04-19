@@ -1,2 +1,5 @@
 [core]
 	editor = /usr/bin/vim
+[user]
+	name = gestalt0rz
+	email = gestalt.huang@gmail.com
