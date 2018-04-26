@@ -68,7 +68,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
-export SVN_EDITOR="/usr/bin/vim"
+export EDITOR="/usr/bin/vim"
 export PYTHONPATH=$PYTHONPATH:/Library/Python/2.7/site-packages
 export PATH="/opt/local/bin:/opt/local/sbin:/usr/local/sbin:$PATH"
 
