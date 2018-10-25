@@ -28,7 +28,7 @@ Plugin 'dracula/vim'
 " plugin
 Plugin 'itchyny/lightline.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'christoomey/vim-tmux-navigator'
+"Plugin 'christoomey/vim-tmux-navigator'
 
 
 syntax on
