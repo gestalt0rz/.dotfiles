@@ -1,5 +1,6 @@
 [core]
 	editor = /usr/bin/vim
+	excludesfile = /Users/gestalt/.gitignore
 [user]
 	name = gestalt0rz
 	email = gestalt.huang@gmail.com
