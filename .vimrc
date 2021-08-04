@@ -2,6 +2,7 @@
 
 " Vundle
 set nocompatible             " not compatible with the old-fashion vi mode
+set backspace=indent,eol,start
 filetype off                 " required!
 
 " Setting up Vundle - the vim plugin bundler
@@ -29,11 +30,13 @@ Plugin 'dracula/vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'scrooloose/nerdtree'
 "Plugin 'christoomey/vim-tmux-navigator'
+"Plugin 'zxqfl/tabnine-vim'
 
 
 syntax on
 colorscheme dracula
 
+set clipboard=unnamed
 set number                   " enable line numbers
 set autoindent               " enable autoindent
 set autoread                 " auto read when file is changed from outside
@@ -45,7 +48,7 @@ set noshowmode
 set laststatus=2
 
 let g:lightline = {
-      \ 'colorscheme': 'Dracula',
+      \ 'colorscheme': 'dracula',
       \ }
 
 
